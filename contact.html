@@ -11,8 +11,8 @@
 
 <body>
 
-       <!-- navbar section -->
-       <div class="navbar">
+    <!-- navbar section -->
+    <div class="navbar">
         <img src="logo.png" alt="tidak ada gambar">
 
         <!-- list -->
@@ -42,11 +42,11 @@
 
 
         <div class="main-content">
-            <form action="#">
+            <form id="main">
                 <div class="section name">
                     <label for="name">NAME </label>
                     <br />
-                    <input type="text" id="name" placeholder="INTIZAM KHOZIM AL-MANAR">
+                    <input type="text" id="name" />
                 </div>
 
                 <div class="section email">
@@ -64,9 +64,9 @@
                 <div class="section subject">
                     <label for="select">SUBJECT</label>
                     <select id="select">
-                        <option value="#">FILE</option>
-                        <option value="#">IMAGE</option>
-                        <option value="#">VOICE</option>
+                        <option value="FRONTED">FRONTED</option>
+                        <option value="BACKEND">BACKEND</option>
+                        <option value="FULLSTACK">FULLSTACK</option>
                     </select>
                 </div>
 
@@ -79,16 +79,19 @@
 
                 <!-- button section -->
                 <div class="button">
-                    <button class="submit-button">SUBMIT</button>
+                    <button  type="button" class="submit-button">SUBMIT</button>
                 </div>
-               
+
                 <!-- button section -->
             </form>
+
         </div>
 
 
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
