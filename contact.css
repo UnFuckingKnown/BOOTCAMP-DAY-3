@@ -16,7 +16,7 @@ body {
     margin: 100px auto;
     box-sizing: border-box;
     background-color: aliceblue;
-    /* border: 3px solid red; */
+    border: 3px solid red;
 }
 
 .title  {
@@ -28,6 +28,7 @@ body {
 .main-content  {
     width: 100%;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .main-content input {
